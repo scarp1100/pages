@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seth Is The Best</title>
+    <title>Best Child</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,14 +11,19 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            padding: 20px; /* Add some padding */
             background-color: #f4f4f4;
             color: #333;
             text-align: center;
+            margin: 0; /* Reset margin */
+        }
+        h1 {
+            font-size: 2em; /* Adjust the font size as needed */
+            margin-bottom: 20px; /* Space below the heading */
         }
         img {
-            max-width: 50%; /* Max width of each image */
-            max-height: 50%; /* Max height of each image */
+            max-width: 20%; /* Max width of each image */
+            max-height: 20%; /* Max height of each image */
             height: auto; /* Maintain aspect ratio */
             margin: 10px; /* Space between images */
         }
@@ -26,6 +31,8 @@
             display: flex; /* Use flexbox to arrange images side by side */
             justify-content: center; /* Center images */
             flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+            width: 100%; /* Take full width of the parent */
+            max-width: 1000px; /* Optional: limit max width of the container */
         }
     </style>
 </head>
