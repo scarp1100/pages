@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fav Child (Seth)</title>
+    <title>Seth Is The Best</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,17 +17,25 @@
             text-align: center;
         }
         img {
-            max-width: 60%; /* Resize images to 60% of the viewport width */
+            max-width: 50%; /* Max width of each image */
+            max-height: 50%; /* Max height of each image */
             height: auto; /* Maintain aspect ratio */
-            margin: 10px 0; /* Space between images */
+            margin: 10px; /* Space between images */
+        }
+        .image-container {
+            display: flex; /* Use flexbox to arrange images side by side */
+            justify-content: center; /* Center images */
+            flex-wrap: wrap; /* Allow images to wrap on smaller screens */
         }
     </style>
 </head>
 <body>
-    <h1>Introducing the favorite child:</h1>
-    <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_4158.JPG" alt="Image 1">
-    <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_5392.jpg" alt="Image 2">
-    <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_5585.JPG" alt="Image 3">
-    <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_5991.JPG" alt="Image 4">
+    <h1>Introducing the favorite child: Seth</h1>
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_4158.JPG" alt="Image 1">
+        <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_5392.jpg" alt="Image 2">
+        <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_5585.JPG" alt="Image 3">
+        <img src="https://raw.githubusercontent.com/scarp1100/pages/3f1e6d5ad789d0406f2203df67718ac5cb9926a3/IMG_5991.JPG" alt="Image 4">
+    </div>
 </body>
 </html>
